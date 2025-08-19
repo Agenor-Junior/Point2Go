@@ -14,6 +14,10 @@
 		CA2AD1AF2E5508E6001D63ED /* Point2Go.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA2AD1AD2E5508E6001D63ED /* Point2Go.xcdatamodeld */; };
 		CA2AD1B12E5508E8001D63ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2AD1B02E5508E8001D63ED /* Assets.xcassets */; };
 		CA2AD1B42E5508E8001D63ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2AD1B22E5508E8001D63ED /* LaunchScreen.storyboard */; };
+		CA2AD1BC2E550AF8001D63ED /* MapTapHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AD1BB2E550AF8001D63ED /* MapTapHandler.swift */; };
+		CA2AD1BE2E550B13001D63ED /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AD1BD2E550B13001D63ED /* CoreDataService.swift */; };
+		CA2AD1C02E550B2E001D63ED /* GeocodingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AD1BF2E550B2E001D63ED /* GeocodingService.swift */; };
+		CA2AD1C22E550B43001D63ED /* LocationManagerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2AD1C12E550B43001D63ED /* LocationManagerHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		CA2AD1B02E5508E8001D63ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2AD1B32E5508E8001D63ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2AD1B52E5508E8001D63ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2AD1BB2E550AF8001D63ED /* MapTapHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTapHandler.swift; sourceTree = "<group>"; };
+		CA2AD1BD2E550B13001D63ED /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		CA2AD1BF2E550B2E001D63ED /* GeocodingService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocodingService.swift; sourceTree = "<group>"; };
+		CA2AD1C12E550B43001D63ED /* LocationManagerHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,10 @@
 				CA2AD1A62E5508E6001D63ED /* SceneDelegate.swift */,
 				CA2AD1A82E5508E6001D63ED /* ViewController.swift */,
 				CA2AD1AA2E5508E6001D63ED /* Main.storyboard */,
+				CA2AD1BB2E550AF8001D63ED /* MapTapHandler.swift */,
+				CA2AD1BD2E550B13001D63ED /* CoreDataService.swift */,
+				CA2AD1BF2E550B2E001D63ED /* GeocodingService.swift */,
+				CA2AD1C12E550B43001D63ED /* LocationManagerHandler.swift */,
 				CA2AD1B02E5508E8001D63ED /* Assets.xcassets */,
 				CA2AD1B22E5508E8001D63ED /* LaunchScreen.storyboard */,
 				CA2AD1B52E5508E8001D63ED /* Info.plist */,
@@ -142,8 +154,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2AD1A92E5508E6001D63ED /* ViewController.swift in Sources */,
+				CA2AD1C22E550B43001D63ED /* LocationManagerHandler.swift in Sources */,
 				CA2AD1A52E5508E6001D63ED /* AppDelegate.swift in Sources */,
 				CA2AD1A72E5508E6001D63ED /* SceneDelegate.swift in Sources */,
+				CA2AD1C02E550B2E001D63ED /* GeocodingService.swift in Sources */,
+				CA2AD1BC2E550AF8001D63ED /* MapTapHandler.swift in Sources */,
+				CA2AD1BE2E550B13001D63ED /* CoreDataService.swift in Sources */,
 				CA2AD1AF2E5508E6001D63ED /* Point2Go.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
