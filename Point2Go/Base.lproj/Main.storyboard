@@ -27,17 +27,26 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Re-Center"/>
+                                <connections>
+                                    <action selector="reCenter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Zf-qS-53C"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtU-3t-nbT">
-                                <rect key="frame" x="24" y="83" width="101" height="35"/>
+                                <rect key="frame" x="24" y="83" width="152" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Favorites"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Delete All Pins"/>
+                                <connections>
+                                    <action selector="deleteAllPins:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RXI-Xe-kzc"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="map" destination="JbI-fM-Y38" id="lgL-QR-qv3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
