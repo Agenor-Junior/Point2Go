@@ -15,6 +15,16 @@ Users can re-center the map to their current location, delete individual pins, o
 - Delete individual pins or all pins with one tap.
 - Re-center button to quickly move back to your position.
 
+  
+## 📱 Screenshots
+
+| Splash Screen | Map with Pins | Pin Callout | Re-Centered |
+|---------------|---------------|-------------|-------------|
+| ![Splash](/Point2Go/Screenshots/splash.png) | ![Pins](/Point2Go/Screenshots/map-pins.png) | ![Callout](/Point2Go/Screenshots/pin-callout.png) | ![Re-Center](/Point2Go/Screenshots/recenter.png) |
+
+---
+
+
 ---
 
 ## 🛠 How to Run Locally
@@ -28,14 +38,6 @@ Users can re-center the map to their current location, delete individual pins, o
 4. Make sure to run on a real device or enable a simulated location in the iOS Simulator:
    - Simulator → **Debug > Location > Apple** (or set a custom location).
 5. Build & Run (`⌘ + R`).
-
----
-
-## 📱 Screenshots
-
-| Splash Screen | Map with Pins | Pin Callout | Re-Centered |
-|---------------|---------------|-------------|-------------|
-| ![Splash](/Point2Go/Screenshots/splash.png) | ![Pins](/Point2Go/Screenshots/map-pins.png) | ![Callout](/Point2Go/Screenshots/pin-callout.png) | ![Re-Center](/Point2Go/Screenshots/recenter.png) |
 
 ---
 
