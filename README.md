@@ -35,7 +35,7 @@ Users can re-center the map to their current location, delete individual pins, o
 
 | Splash Screen | Map with Pins | Pin Callout | Re-Centered |
 |---------------|---------------|-------------|-------------|
-| ![Splash](screenshots/splash.png) | ![Pins](screenshots/map-pins.png) | ![Callout](screenshots/pin-callout.png) | ![Re-Center](screenshots/recenter.png) |
+| ![Splash](/Point2Go/Screenshots/splash.png) | ![Pins](screenshots/map-pins.png) | ![Callout](screenshots/pin-callout.png) | ![Re-Center](screenshots/recenter.png) |
 
 ---
 
